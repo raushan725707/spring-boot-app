@@ -15,4 +15,8 @@ public class TestController {
         return ResponseEntity.ok("\"Hello from spring boot app\"");
     }
 
+    @GetMapping("/second")
+    ResponseEntity<?> test2(){
+        return ResponseEntity.ok("\"Hello from spring boot app\"");
+    }
 }
