@@ -33,4 +33,9 @@ public String demo(){
         return "hello";
     }
 
+    @GetMapping("/demodd")
+    public String demodd(){
+        return "hello";
+    }
+
 }
