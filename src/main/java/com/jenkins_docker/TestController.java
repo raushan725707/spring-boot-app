@@ -27,4 +27,10 @@ public String demo(){
         return "hello";
     }
 
+
+    @GetMapping("/demod")
+    public String demod(){
+        return "hello";
+    }
+
 }
