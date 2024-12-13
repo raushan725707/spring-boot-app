@@ -15,37 +15,16 @@ public class TestController {
         return "Test Endpoint is working!";
     }
 
-    @GetMapping("/second")
-    ResponseEntity<?> test2(){
-        return ResponseEntity.ok("\"Hello from spring boot app\"");
-    }
-
-    @GetMapping("/test")
-    ResponseEntity<?> test3(){
-        System.out.println("hello from spring boot app");
-        return ResponseEntity.ok("\"Hello from spring boot app\"");
-    }
-    @GetMapping("/test2")
-    ResponseEntity<?> test4(){
-        System.out.println("hello from spring boot app");
-        return ResponseEntity.ok("\"Hello from spring boot app\"");
-    }
-
-    @GetMapping("/test4")
-    ResponseEntity<?> test5(){
-        System.out.println("hello from spring boot app");
-        return ResponseEntity.ok("\"Hello from spring boot app\"");
-    }
 
     @GetMapping("/hello/world")
     ResponseEntity<?> helloWorld(){
         return ResponseEntity.ok("hello world");
 
     }
-    @GetMapping("/hello/worldd")
-    ResponseEntity<?> helloWorldd(){
-        return ResponseEntity.ok("hello world");
 
+    @GetMapping("/demo")
+public String demo(){
+        return "hello";
     }
 
 }
