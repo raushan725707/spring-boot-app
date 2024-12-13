@@ -14,7 +14,7 @@
 	<name>jenkins-docker</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
-	<packaging>war</packaging> <!-- Change this to 'war' if you want to deploy it as a WAR file -->
+	<packaging>jar</packaging> <!-- Change this to 'war' if you want to deploy it as a WAR file -->
 
 	<licenses>
 		<license/>
