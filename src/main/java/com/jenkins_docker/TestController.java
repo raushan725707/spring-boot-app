@@ -11,8 +11,8 @@ public class TestController {
 
 
     @GetMapping
-    ResponseEntity<?> test(){
-        return ResponseEntity.ok("\"Hello from spring boot app\"");
+    public String testEndpoint() {
+        return "Test Endpoint is working!";
     }
 
     @GetMapping("/second")
