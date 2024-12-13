@@ -30,4 +30,10 @@ public class TestController {
         System.out.println("hello from spring boot app");
         return ResponseEntity.ok("\"Hello from spring boot app\"");
     }
+
+    @GetMapping("/test4")
+    ResponseEntity<?> test5(){
+        System.out.println("hello from spring boot app");
+        return ResponseEntity.ok("\"Hello from spring boot app\"");
+    }
 }
